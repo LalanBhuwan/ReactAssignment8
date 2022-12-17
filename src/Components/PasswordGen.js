@@ -72,6 +72,7 @@ const PasswordGen = () => {
         }}
         type="checkbox"
         id="uppercase"
+        className="checkbox"
       />
       <label htmlFor="uppercase">Include uppercase letters</label>
       <br />
@@ -82,6 +83,7 @@ const PasswordGen = () => {
         }}
         type="checkbox"
         id="lowercase"
+        className="checkbox"
       />
       <label htmlFor="lowercase">Include lowercase letters</label>
       <br />
@@ -92,6 +94,7 @@ const PasswordGen = () => {
         }}
         type="checkbox"
         id="number"
+        className="checkbox"
       />
       <label htmlFor="number">Include numbers</label>
       <br />
@@ -102,6 +105,7 @@ const PasswordGen = () => {
         }}
         type="checkbox"
         id="symbole"
+        className="checkbox"
       />
       <label htmlFor="symbole">Include symboles</label>
       <br />
